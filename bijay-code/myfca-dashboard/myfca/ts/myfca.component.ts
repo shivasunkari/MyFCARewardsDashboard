@@ -3,16 +3,16 @@
  */
 
 import { Component } from '@angular/core';
-import { MyFCAWelcomeComponent } from './myfca-welcome.component'
-import { WelcomeJSON } from './welcome.json';
-import {WelcomeJSONDataComponent} from './welcome-json-data'
+import { MyFCAWelcomeComponent } from './welcome/myfca-welcome.component'
+import { WelcomeJSON } from './welcome/welcome.json';
+import {WelcomeJSONDataComponent} from './welcome/welcome-json-data'
 
 let welcomeJSONDataComponentObject= new WelcomeJSONDataComponent();
 
 
 @Component({
     selector: 'my-fca',
-    templateUrl: '/myfca/views/myfca-welcome.component.html'
+    templateUrl: '/myfca/views/footer/myfca-footer.component.html'
 
     /* template:'<h1>Welcome data</h1> <ul><li *ngFor="let wel of welcomejson">' +
      '<span>{{wel.name}}{{wel.designation}}{{wel.dealership}}</span>' +

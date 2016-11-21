@@ -12,20 +12,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var welcome_json_data_1 = require('./welcome/welcome-json-data');
-var welcomeJSONDataComponentObject = new welcome_json_data_1.WelcomeJSONDataComponent();
-var AppComponent = (function () {
-    function AppComponent() {
-        this.welcomejson = welcomeJSONDataComponentObject.WELCOMEJSON;
+var core_2 = require('@angular/core');
+core_2.enableProdMode();
+var MyFCAWelcomeComponent = (function () {
+    function MyFCAWelcomeComponent() {
     }
-    AppComponent = __decorate([
+    MyFCAWelcomeComponent = __decorate([
         core_1.Component({
-            selector: 'my-fca',
-            templateUrl: '/myfca/views/footer/myfca-footer.component.html'
+            selector: 'myfca-welcome',
+            template: '<h1>hello ppl</h1>'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], MyFCAWelcomeComponent);
+    return MyFCAWelcomeComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=myfca.component.js.map
+exports.MyFCAWelcomeComponent = MyFCAWelcomeComponent;
+//# sourceMappingURL=myfca-welcome.component.js.map

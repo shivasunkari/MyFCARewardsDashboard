@@ -1,6 +1,3 @@
-/**
- * Created by sharmab on 11/21/2016.
- */
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11,21 +8,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var welcome_json_data_1 = require('./welcome/welcome-json-data');
-var welcomeJSONDataComponentObject = new welcome_json_data_1.WelcomeJSONDataComponent();
-var AppComponent = (function () {
-    function AppComponent() {
-        this.welcomejson = welcomeJSONDataComponentObject.WELCOMEJSON;
+/**
+ * Created by sharmab on 11/21/2016.
+ */
+var core_1 = require('./@angular/core');
+var MyFCAFooterComponent = (function () {
+    function MyFCAFooterComponent() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-fca',
+    MyFCAFooterComponent = __decorate([
+        core_1.default({
+            selector: 'myfca-footer',
             templateUrl: '/myfca/views/footer/myfca-footer.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], MyFCAFooterComponent);
+    return MyFCAFooterComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=myfca.component.js.map
+exports.MyFCAFooterComponent = MyFCAFooterComponent;
+//# sourceMappingURL=myfca-footer.component.js.map
