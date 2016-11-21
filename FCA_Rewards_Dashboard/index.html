@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FCA Dashboard - Login</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,700italic,800italic' rel='stylesheet' type='text/css'>
+        <!-- Custom CSS -->
+        <link href="css/login.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+        <!-- Header  -->
+
+        <div class="container">
+
+            <div class="col-md-12 headerarea" >
+                <div class="col-md-3 col-sm-3 logo">
+                    <img src="images/login/logo.png" class="img-responsive"/>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <h2 class="headerarea">Welcome to <span>DealerCONNECT</span></h2>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="container">
+            <p style="color:#fff;font-size: 11px;"> Access to FCA US LLC's computer systems is controlled. UNAUTHORIZED ACCESS OR USE IS PROHIBITED. Authorized users are hereby informed that FCA US LLC management may monitor this use and ensure compliance. FCA US LLC may terminate access privileges, take DISCIPLINARY ACTION and/or institute civil or criminal proceedings to enforce this policy.</p>
+            <nav class="navbar navbar-default navbar-inverse " role="navigation">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav list-inline">
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-play"></i>&nbsp;&nbsp;Help with Password or Access</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-play"></i>&nbsp;&nbsp;Site Status</a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-play"></i>&nbsp;&nbsp;Dealer Help Desk / Maintenance</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-play"></i>&nbsp;&nbsp;Terms of Use </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+
+
+
+                        <div class="row">             
+                            <div class="panel panel-info panel-login" >
+
+                                <div style="padding-top:20px" class="panel-body" >
+
+                                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                                    <form id="loginform" class="form-horizontal" role="form">
+
+                                        <div id="loginbox" class="mainbox col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+
+                                            <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                <input id="username" type="text" class="form-control" name="username" value="" placeholder="user id">                                        
+                                            </div>
+
+                                            <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                                <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                            </div>
+
+
+
+                                            <div class="input-group">
+
+                                                <label>
+                                                    <a href="#" class="fpwd"> Forgot password </a>
+                                                </label>
+
+                                            </div>
+
+
+                                            <div style="margin-top:10px" class="form-group">
+                                                <!-- Button -->
+
+                                                <div class="col-sm-12 controls">
+                                                    <a id="submit" href="#" class="btn sub-btn">Login  </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>     
+
+
+
+                                </div>                     
+                            </div>  
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/login/ChryslerImg4.jpg" width="90%" class="img-responsive center-block"/>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class = "panel panel-default">
+                        <div class = "panel-body" style=" padding: 0px !important;">
+                            <!-- <div class="col-md-2">
+                                <img src="images/login/FCA_Pantone.png" class="img-responsive center-block">
+                                </div>
+                                <div class="col-md-8">
+                                <ul class="nolisting">
+                                <li><img src="images/login/AW_Digital Version.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/Chry3DGray.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/DODGE_3D_485.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/FIAT_500_LOCKUP_VERT_RGB.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/Jeep_3D.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/MOPAR_3D.png" class="img-responsive center-block"></li>
+                                 <li><img src="images/login/RAM_3D_Blk_Vert.png" class="img-responsive center-block"></li> 
+                                </ul>
+                                </div>
+                                <div class="col-md-2">
+                                  <img src="images/login/MVP USA.png" class="img-responsive center-block">
+                                </div> -->'
+
+
+                            <ul class="list-inline">
+                                <li><img src="images/login/FCA_Pantone.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/AW_Digital Version.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/Chry3DGray.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/DODGE_3D_485.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/FIAT_500_LOCKUP_VERT_RGB.png" class="img-responsive center-block"></li>
+                                <li style="padding-top: 10px;"><img src="images/login/Jeep_3D.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/MOPAR_3D.png" class="img-responsive center-block"></li>
+                                <li><img src="images/login/RAM_3D_Blk_Vert.png" class="img-responsive center-block"></li> 
+                                <li><img src="images/login/MVP USA.png" class="img-responsive center-block"></li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-9 text-center" >
+                        <p style="color:#fff;font-size: 11px;"	>&copy;	2016 FCA US LLC. All Rights Reserved. Chrysler, Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC. 
+                            ALFA ROMEO and FIAT are registered trademarks of FCA Group Marketing S.p.A., used with permission. 
+                            <a href="#" class="fpwd">Privacy Statement</a></p>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Page Content -->
+
+        <!-- /.container -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/login.js"></script>
+
+    </body>
+
+</html>

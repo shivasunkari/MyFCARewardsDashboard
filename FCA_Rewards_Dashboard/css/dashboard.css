@@ -1,0 +1,194 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, grey); /* Standard syntax (must be last) */
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.headerarea{
+
+
+    padding: 4px 0px;
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom : 0px !important;
+    color: #fff !important;
+}
+.navbar-collapse{
+    padding : 0px !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+.navbar-nav>li>a {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: #000 !important;
+    background-color : #B7B8B8 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+.navbar-default .navbar-nav>li .active-menu {
+    color: #000 !important;
+    background-color : #B7B8B8 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+.logo{
+    padding-left:0px !important;
+}
+
+.header-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5A6F83;
+}
+
+.header-ul li {
+    float: left;
+    padding: 5px 25px;
+    color: #fff;
+}
+.header-ul li  span{
+    color: #F8EE22;
+}
+.lisiting{
+    background-color: #000;
+
+
+}
+.lisiting a{
+    color: #6382C0;
+}
+
+.menu-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #fff !important;
+
+}
+.breadcrumb{
+    margin-bottom: 0px !important;
+
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 0px !important; 
+}
+.menu-ul li{
+    float: left;
+    padding: 5px;
+    border-right: 1px solid #fff;
+    font-size: 13px;
+}
+
+.menu-ul li a{
+    color:#fff !important;
+}
+.menu-ul li:last-child {
+    border-right: none;
+}
+
+.heading-panel{
+    border-bottom: 1px solid #A8A9AD;
+    margin-bottom: 10px;
+}
+.heading-panel label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.content-panel p , .content-panel h3{
+    color:#767676;
+    margin-top: 8px;
+}
+.panel{
+    border-radius: 5px !important;
+}
+.content-img{
+    padding: 0px !important;
+
+}
+.border-btm{
+    border-bottom: 1px solid #A8A9AD;
+    margin: 10px 0px;
+}
+.content-panel h5{
+    color: #116EB6 !important;
+}
+.navbar-inverse{
+
+    background: grey !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, black)!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, black)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, black)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, black)!important; /* Standard syntax (must be last) */
+    min-height:30px !important;
+    margin-bottom: 0 !important;
+}
+
+.list-inline {
+    display: table !important;
+    width: 100% !important;
+    text-transform: uppercase;
+
+}
+.list-inline li {
+    display: table-cell !important;
+    text-align: center !important;
+    border-right: 2px solid;
+    float:none !important;
+}
+/* dashboard media queries */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar-default .navbar-nav>li>a {
+        color: #FFF !important;
+        font-size: 12px !important;
+    }
+    .header-ul li {
+        float: left;
+        padding: 5px 10px;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+
+    .header-ul li {
+        float: left;
+        padding: 5px 10px;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+    .header-ul li {
+        float: left;
+        padding: 5px 14px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 991px)
+
+{
+
+
+
+    .headerarea>div>img
+    {
+        width:25%;
+    }
+}
